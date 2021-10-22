@@ -3,9 +3,9 @@
 By running the RandomObjectGenerator.py program, the api exposed in 127.0.0.1:5050 address
 
 Available services are, 
-1. http://127.0.0.1:5050/generate
-    Method : GET
-    Response:
+1. http://127.0.0.1:5050/generate \
+    Method : GET\
+    Response: \
          {
            "alphabets":39664,
            "alphanumeric":39612,
@@ -14,10 +14,11 @@ Available services are,
            "realnumber":26468
         }
         
-2. http://127.0.0.1:5050/download/<fileName>
-     Method: GET
-     Response: if found,     Downloaded File of 2MB size if exist
-               if not found,
+2. http://127.0.0.1:5050/download/fileName \
+     Method: GET\
+     Response: if found,\
+               Downloaded File of 2MB size\
+               if not found,\
                         {
                            "error":404,
                            "message":"file not found"
