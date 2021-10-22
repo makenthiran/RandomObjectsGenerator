@@ -14,7 +14,7 @@ Available services are,
            "realnumber":26468
         }
         
-2. http://127.0.0.1:5050/download/randomString_1634910235455.txt
+2. http://127.0.0.1:5050/download/<fileName>
      Method: GET
      Response: if found,     Downloaded File of 2MB size if exist
                if not found,
